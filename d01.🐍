@@ -1,0 +1,8 @@
+with open("input_d01.txt") as 📜:
+   📃  = 📜.read()
+🧝🧝 = sorted(map(lambda 🧝📃: sum(map(int, 🧝📃.split())), 📃.split("\n\n")))
+
+print("Top elf:",🧝🧝[-1])
+print("Top 3 elves:",sum(🧝🧝[-3:]))
+
+
