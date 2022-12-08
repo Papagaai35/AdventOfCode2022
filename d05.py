@@ -9,7 +9,7 @@ move 3 from 1 to 3
 move 2 from 2 to 1
 move 1 from 1 to 2""".strip("\n")
 
-with open("input_d05.txt","r") as fh:
+with open("inputs/input_d05.txt","r") as fh:
     content = fh.read()
     
 ### PART 1

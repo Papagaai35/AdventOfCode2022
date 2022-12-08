@@ -1,4 +1,4 @@
-with open("input_d01.txt") as 📜:
+with open("inputs/input_d01.txt") as 📜:
    📃  = 📜.read()
 
 🧝🧝📃 = 📃.split("\n\n")
@@ -7,5 +7,3 @@ with open("input_d01.txt") as 📜:
 
 print("Top elf:",🧝🧝[-1])
 print("Top 3 elves:",sum(🧝🧝[-3:]))
-
-

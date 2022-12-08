@@ -26,7 +26,7 @@ $ ls
 
 demo_on = input("Do you want the demo? [y/N] ").lower()
 if "y" not in demo_on:
-    with open("input_d07.txt","r") as fh:
+    with open("inputs/input_d07.txt","r") as fh:
         commands = fh.read()
     
 commandlist = commands.strip().split("\n")

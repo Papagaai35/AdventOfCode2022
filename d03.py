@@ -7,7 +7,7 @@ ttgJtRGJQctTZtZT
 CrZsJsPPZsGzwwsLwLmpwMDw
 """.strip().split("\n")
 
-with open("input_d03.txt","r") as fh:
+with open("inputs/input_d03.txt","r") as fh:
     rugsacks = fh.readlines()
 
 def calc_prio_sum(rugsacks):

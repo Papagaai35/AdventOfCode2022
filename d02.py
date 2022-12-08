@@ -2,7 +2,7 @@ content = """A Y
 B X
 C Z"""
 
-with open("input_d02.txt","r") as fh:
+with open("inputs/input_d02.txt","r") as fh:
     content = fh.read()
     
 games = content.strip().split("\n")

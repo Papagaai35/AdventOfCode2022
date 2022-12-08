@@ -5,7 +5,7 @@ content_demo = """2-4,6-8
 6-6,4-6
 2-6,4-8"""
 
-with open("input_d04.txt","r") as fh:
+with open("inputs/input_d04.txt","r") as fh:
     content = fh.read()
 
 # Converts to list of tuples<4 x int>

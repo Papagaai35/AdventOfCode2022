@@ -9,7 +9,7 @@ content = """30373
 
 demo_on = input("Do you want the demo? [y/N] ").lower()
 if "y" not in demo_on:
-    with open("input_d08.txt","r") as fh:
+    with open("inputs/input_d08.txt","r") as fh:
         content = fh.read()
 
 forest = np.array(list(map(list,content.split("\n")))).astype(int)
@@ -60,4 +60,4 @@ for y in range(forest.shape[0]):
         if (down>=val).any():
             down = down[:(np.argmax(down>=val)+1)]
         los[y,x] = len(left)*len(right)*len(up)*len(down)
-print("Part 1", np.amax(los))
+print("Part 2", np.amax(los))

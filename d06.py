@@ -1,4 +1,4 @@
-with open("input_d06.txt","r") as fh:
+with open("inputs/input_d06.txt","r") as fh:
     content = fh.read().strip()
     
 tests = [
